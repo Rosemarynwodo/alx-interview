@@ -1,67 +1,96 @@
-# :book: 0x09. Island Perimeter.
-## :page_with_curl: Topics Covered.
+# :book: Interview Questions.
+## Topics Covered.
+1. Python List, List Comprehession.
+
+## :wrench: Project setup
+```bash
+# Create project directory.
+mkdir ./alx-interview
+cd ./alx-interview
+
+# Create new repo.
+git init
+
+# Install python linter.
+pip install pycodestyle==2.8.0
+pip install pep8==1.7.0
+```
+
+# :computer: Projects.
+## [0x00. Pascal's Triangle](0x00-pascal_triangle)
+Pascal triangle interview question.
+
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x00-pascal_triangle
+touch ./0x00-pascal_triangle/README.md
+cd ./0x00-pascal_triangle
+```
+
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x00-pascal_triangle)
+
+## [0x01 lockboxes](0x01-lockboxes)
+Lockboxes interview question.
+
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x01-lockboxes
+touch ./0x01-lockboxes/README.md
+cd ./0x01-lockboxes
+```
+
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x01-lockboxes)
+
+
+## [0x03. Log Parsing](0x03-log_parsing)
+Log Parsing interview question.
+
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x03-log_parsing
+touch ./0x03-log_parsing/README.md
+cd ./0x03-log_parsing
+```
+
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x03-log_parsing)
+
+<!---->
+## [0. Island Perimeter](0x09-island_perimeter)
 Island Perimeter interview question.
 
-# :computer: Tasks.
-<!---->
-## [0. Island Perimeter](0-island_perimeter.py)
-### :page_with_curl: Task requirements.
-Create a function `def island_perimeter(grid):` that returns the perimeter of the island described in `grid`:
-
-* `grid` is a list of list of integers:
-    * 0 represents water
-    * 1 represents land
-    * Each cell is square, with a side length of 1
-    * Cells are connected horizontally/vertically (not diagonally).
-    * `grid` is rectangular, with its width and height not exceeding 100
-* The grid is completely surrounded by water
-* There is only one island (or nothing).
-* The island doesn’t have “lakes” (water inside that isn’t connected to the water surrounding the island).
-```
-    guillaume@ubuntu:~/0x09$ cat 0-main.py
-    #!/usr/bin/python3
-    """
-    0-main
-    """
-    island_perimeter = __import__('0-island_perimeter').island_perimeter
-    
-    if __name__ == "__main__":
-        grid = [
-            [0, 0, 0, 0, 0, 0],
-            [0, 1, 0, 0, 0, 0],
-            [0, 1, 0, 0, 0, 0],
-            [0, 1, 1, 1, 0, 0],
-            [0, 0, 0, 0, 0, 0]
-        ]
-        print(island_perimeter(grid))
-    
-    guillaume@ubuntu:~/0x09$ 
-    guillaume@ubuntu:~/0x09$ ./0-main.py
-    12
-    guillaume@ubuntu:~/0x09$ 
-```
-
-**Repo:**
-
-* GitHub repository: `alx-interview`
-* Directory: `0x09-island_perimeter`
-* File: `0-island_perimeter.py`
-
-
-### :wrench: Task setup.
+### :wrench: Project setup.
 ```bash
-# Create solution file.
-touch 0-island_perimeter.py
-chmod +x 0-island_perimeter.py
-
-# Lint.
-pep8 0-island_perimeter.py
-
-# Test.
-touch 0-main.py
-chmod +x 0-main.py
-./0-main.py
+# Create project directory.
+mkdir ./0x09-island_perimeter
+touch ./0x09-island_perimeter/README.md
+cd ./0x09-island_perimeter
 ```
+
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x09-island_perimeter)
+<!---->
+
+<!---->
+## [0. Prime Game](00x0A-primegame)
+Prime game interview question.
+
+### :wrench: Project setup.
+```bash
+# Create project directory.
+mkdir ./0x0A-primegame
+touch ./0x0A-primegame/README.md
+cd ./0x09-island_perimeter
+```
+
+### :heavy_check_mark: Solution.
+> [:point_right: Go to solution](0x0A-primegame)
+<!---->
 
 # :man: Author and Credits.
 This project was done by [SE. Moses Mwangi](https://github.com/MosesSoftEng). Feel free to get intouch with me;
